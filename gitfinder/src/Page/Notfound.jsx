@@ -1,11 +1,21 @@
-import React from 'react'
+import React from "react";
+import { FaHome } from "react-icons/fa";
 
 const Notfound = () => {
   return (
-    <div>
-      
+    <div className="hero">
+      <div className="text-center hero-content">
+        <div className="max-w-lg">
+          <h1 className="text-8xl font-bold mb-8">Oops!</h1>
+          <p className="text-xl mb-8 ">404-Page Not Found</p>
+          <button className="btn btn-primary btn-lg">
+            <FaHome className="mr-2" />
+            Back To Home
+          </button>
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Notfound
+export default Notfound;
