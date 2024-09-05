@@ -14,16 +14,16 @@ const Navbar = () => {
         </div>
         <div className="flex-1 px-2 mx-2 ">
           <div className="flex justify-end">
-            <button className="color border-spacing-3 border-black btn btn-ghost btn-sm rounded-btn mr-2">
-              <h4 to="/" className="text-lg text-black font-bold align-middle ">
+            <Link className="color border-spacing-3 border-black btn btn-ghost btn-sm rounded-btn mr-2 text-black">
+              
                 Home
-              </h4>
-            </button>
-            <button className="color border-spacing-3 border-black btn btn-ghost btn-sm rounded-btn">
-              <h4 to="/" className="text-lg text-black font-bold align-middle ">
+              
+            </Link>
+            <Link className="color border-spacing-3 border-black btn btn-ghost btn-sm rounded-btn text-black">
+             
                 About
-              </h4>
-            </button>
+              
+            </Link>
           </div>
         </div>
       </div>

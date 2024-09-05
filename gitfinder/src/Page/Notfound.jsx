@@ -1,5 +1,6 @@
 import React from "react";
 import { FaHome } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Notfound = () => {
   return (
@@ -8,10 +9,10 @@ const Notfound = () => {
         <div className="max-w-lg">
           <h1 className="text-8xl font-bold mb-8">Oops!</h1>
           <p className="text-xl mb-8 ">404-Page Not Found</p>
-          <button className="btn btn-primary btn-lg">
+          <Link className="btn btn-primary btn-lg">
             <FaHome className="mr-2" />
             Back To Home
-          </button>
+          </Link>
         </div>
       </div>
     </div>
